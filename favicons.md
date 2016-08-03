@@ -8,7 +8,9 @@
 - Download the package and extract files to a dedicated folder in a project.
 - Check the images. If required, replace them with higher quality images. 16x16 and 32x32 icons require a replacement most of the time.
 - Images come out uncompressed. It's a good idea to process them with [PNGOUT](http://advsys.net/ken/utils.htm), [SVGO](https://github.com/svg/svgo) or similar tools.
-- Recompile `favicon.ico` from 16x16 and 32x32 icons to exclude 48x48 icon.
+- Recompile `favicon.ico` from 16x16 and 32x32 icons to exclude 48x48 icon. With [ImageMagick](http://www.imagemagick.org/) it could be done with:
+        `magick convert favicon-32x32.png favicon-16x16.png favicon.ico`
+Note the [order](https://github.com/RealFaviconGenerator/realfavicongenerator/issues/135).
 
 ## Webpack
 
