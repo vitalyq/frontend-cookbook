@@ -7,6 +7,7 @@
 - Upload `Dedicated picture`s if certain images don't look good.
 - Download the package and extract files to a dedicated folder in a project.
 - Check the images. If required, replace them with higher quality images. 16x16 and 32x32 icons require a replacement most of the time.
+- Images come out uncompressed. It's a good idea to process them with [PNGOUT](http://advsys.net/ken/utils.htm), [SVGO](https://github.com/svg/svgo) or similar tools.
 - Recompile `favicon.ico` from 16x16 and 32x32 icons to exclude 48x48 icon.
 
 ## Webpack
