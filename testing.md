@@ -12,7 +12,7 @@
 
 Android Browser versions varies across Android versions, including patch versions.
 
-[Android Browser versions](https://decadecity.net/blog/2013/11/21/android-browser-versions)
+[Android Browser versions](https://decadecity.net/blog/2013/11/21/android-browser-versions)  
 [Android Dashboards](https://developer.android.com/about/dashboards/index.html)
 
 ## Set up the Emulators
@@ -23,27 +23,27 @@ Android Browser versions varies across Android versions, including patch version
 3. Copy .box to a separate folder, i.e. `win7-ie10`
 4. `vagrant init "IE10 - Win7.box"` - substitute box name
 5. Update `Vagrantfile`
-```
-  ### Replace these lines:
-  # config.vm.provider "virtualbox" do |vb|
-  #   # Display the VirtualBox GUI when booting the machine
-  #   vb.gui = true
-  #
-  #   # Customize the amount of memory on the VM:
-  #   vb.memory = "1024"
-  # end
+  ```
+    ### Replace these lines:
+    # config.vm.provider "virtualbox" do |vb|
+    #   # Display the VirtualBox GUI when booting the machine
+    #   vb.gui = true
+    #
+    #   # Customize the amount of memory on the VM:
+    #   vb.memory = "1024"
+    # end
 
-  ### With these:
-  config.vm.provider "virtualbox" do |vb|
-    vb.gui = true
-    vb.customize ["modifyvm", :id, "--vram", "48"]
-  end
-```
+    ### With these:
+    config.vm.provider "virtualbox" do |vb|
+      vb.gui = true
+      vb.customize ["modifyvm", :id, "--vram", "48"]
+    end
+  ```
 6. `vagrant up`
 
 #### Test on Android with Genymotion
 
-To install Google Chrome on Genymotion:
+Install Google Chrome on Genymotion:
 
 1. Download [Google Apps package](http://opengapps.org/)
 2. Drag & drop downloaded zip file to Genymotion and restart
