@@ -23,22 +23,22 @@ Android Browser versions varies across Android versions, including patch version
 3. Copy .box to a separate folder, i.e. `win7-ie10`
 4. `vagrant init "IE10 - Win7.box"` - substitute box name
 5. Update `Vagrantfile`
-    ```
-    ### Replace these lines:
-    # config.vm.provider "virtualbox" do |vb|
-    #   # Display the VirtualBox GUI when booting the machine
-    #   vb.gui = true
-    #
-    #   # Customize the amount of memory on the VM:
-    #   vb.memory = "1024"
-    # end
 
-    ### With these:
-    config.vm.provider "virtualbox" do |vb|
-      vb.gui = true
-      vb.customize ["modifyvm", :id, "--vram", "48"]
-    end
-    ```
+        ### Replace these lines:
+        # config.vm.provider "virtualbox" do |vb|
+        #   # Display the VirtualBox GUI when booting the machine
+        #   vb.gui = true
+        #
+        #   # Customize the amount of memory on the VM:
+        #   vb.memory = "1024"
+        # end
+
+        ### With these:
+        config.vm.provider "virtualbox" do |vb|
+          vb.gui = true
+          vb.customize ["modifyvm", :id, "--vram", "48"]
+        end
+
 6. `vagrant up`
 
 #### Test on Android with Genymotion
