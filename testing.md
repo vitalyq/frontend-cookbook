@@ -43,8 +43,8 @@ Android Browser versions varies across Android versions, including patch version
 
 #### Test on Android with Genymotion
 
-Install Google Chrome on Genymotion:
-
-1. Download [Google Apps package](http://opengapps.org/)
-2. Drag & drop downloaded zip file to Genymotion and restart
-3. Open Google Play, add google account and install Chrome
+- Set device screen to `480x800 - 120dpi` to speed up the emulator
+- Install Google Chrome on Genymotion
+  1. Download [Google Apps package](http://opengapps.org/)
+  2. Drag & drop downloaded zip file to Genymotion and restart
+  3. Open Google Play, add google account and install Chrome
