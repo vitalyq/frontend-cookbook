@@ -5,7 +5,6 @@
 - Windows 10, Edge (latest)
 - Windows 10, Chrome (latest)
 - Windows 10, Firefox (latest)
-- Windows 10, Opera (latest)
 - Windows 7, Internet Explorer 10, VirtualBox
 - Android, Chrome (latest), Genymotion
 - Android 5, Chrome 37, Genymotion
@@ -13,17 +12,18 @@
 - macOS, Safari (latest), VirtualBox
 - iOS, Safari (latest), VirtualBox + Xcode + Simulator
 
-**Extended Support**
+#### Extended Support
 
 - Windows 7, Internet Explorer 9, VirtualBox
 - Windows 7, Internet Explorer 8, VirtualBox
 - Android 4.1, Stock Browser, Genymotion
-- Android 4, Stock Browser, BrowserStack(?) or Device
+- Android 4, Stock Browser, BrowserStack or Device
 - Android 4, Chrome 42, BrowserStack or Device
 - macOS 10.10 Yosemite, Safari 8, VirtualBox
 - iOS 8, Safari 8, VirtualBox + Xcode + Simulator
 
-**References**
+#### References
+
 [It's March 2016 - what browsers and operating systems should we be supporting?](http://www.wiliam.com.au/wiliam-blog/its-march-2016-what-browsers-and-operating-systems-should-we-be-supporting)  
 [Browser Support for 2016](http://blog.todaysmeet.com/browser-support-update-for-2016/)  
 [Test on the right mobile devices](https://www.browserstack.com/test-on-the-right-mobile-devices)  
@@ -76,6 +76,7 @@
 
 Android Browser versions varies across Android versions, including patch versions.
 
-**References**
+#### References
+
 [Android Browser versions](https://decadecity.net/blog/2013/11/21/android-browser-versions)  
 [Android Dashboards](https://developer.android.com/about/dashboards/index.html)
