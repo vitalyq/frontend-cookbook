@@ -30,34 +30,16 @@
 [Strategies for carrying out testing, MDN](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Testing_strategies)
 
 ## Set up the Emulators
-#### Test IE and Edge with Vagrant
+#### Test IE and Edge with VirtualBox
 
-1. Install VirtualBox and Vagrant
-2. [Download](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/) .box file with desired OS/Browser combination
-3. Copy .box to a separate folder, i.e. `win7-ie10`
-4. `vagrant init "IE10 - Win7.box"` - substitute box name
-5. Update `Vagrantfile`
-
-        ### Replace these lines:
-        # config.vm.provider "virtualbox" do |vb|
-        #   # Display the VirtualBox GUI when booting the machine
-        #   vb.gui = true
-        #
-        #   # Customize the amount of memory on the VM:
-        #   vb.memory = "1024"
-        # end
-
-        ### With these:
-        config.vm.provider "virtualbox" do |vb|
-          vb.gui = true
-          vb.customize ["modifyvm", :id, "--vram", "48"]
-        end
-
-6. `vagrant up`
+1. Install VirtualBox
+2. [Download](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/) .ova file with desired OS/Browser combination
+3. Double click the file and import the virtual machine
 
 #### Test on Android with Genymotion
 
 - Set device screen to `480x800 - 120dpi` to speed up the emulator
+- Set `Use virtual keyboard for text input` check box
 - Install Google Chrome on Genymotion
     1. Download [Google Apps package](http://opengapps.org/)
     2. Drag & drop downloaded zip file to Genymotion and restart
