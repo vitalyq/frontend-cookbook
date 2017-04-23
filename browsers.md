@@ -1,4 +1,4 @@
-# Test Browser Compatibility
+# Set up Browsers for Testing
 ## OS / Browser List
 
 - Windows 10, Internet Explorer 11
