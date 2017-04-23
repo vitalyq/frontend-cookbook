@@ -21,7 +21,7 @@ Depends on a [testing framework](https://mochajs.org/#running-mocha-in-the-brows
 
 Sauce Labs Selenium script needs a way to detect test results. Because tests can run asynchronously, it is not enough to wait for the `onload` event. Results are instead detected by polling a global variable on a page, which you will [need to provide](https://wiki.saucelabs.com/display/DOCS/Setting+Up+the+Reporting+Code+for+Your+JavaScript+Unit+Tests).
 
-Variable name and value depends on a testing framework. Please consult the respective reporting [example](https://github.com/saucelabs-sample-scripts/JavaScript) for a particular framework. You can also use [our reporting script](https://github.com/vitalyq/react-trigger-change/blob/master/test/vendor/saucelabs-reporting.js) for Mocha:
+Variable name and value depend on a testing framework. Please consult the respective reporting [example](https://github.com/saucelabs-sample-scripts/JavaScript) for a particular framework. You can also use [our reporting script](https://github.com/vitalyq/react-trigger-change/blob/master/test/vendor/saucelabs-reporting.js) for Mocha:
 ```js
 saucelabsReporting(mocha.run());
 ```
