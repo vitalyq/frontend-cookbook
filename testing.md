@@ -9,7 +9,7 @@ While running tests in Node.js is sufficient for most server-side modules, testi
 | Front-end component | unit, integration, functional | [browsers](browsers.md) |
 | Application | unit, integration, functional | [browsers](browsers.md) |
 
-This table is subjective and is presented for reference. Adapt the testing strategy for your own needs:
+This table is not exhaustive and should be used as a reference only. Adapt a testing strategy for your own needs:
 
 - It's great to test a **library of pure functions** in browsers as well because level of JavaScript support can vary
 - If a **library of pure functions** has no dependencies, integration tests are not required
