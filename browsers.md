@@ -46,6 +46,7 @@
     2. In the SDK Platforms tab select Show Package Details
     3. Find Android 4.0.3 (IceCreamSandwich) section
     4. Check Google APIs Intel x86 Atom System Image and click Apply
+- Chrome 42 doesn't work on x86 Android 4.0.3
 
 ## Supplement: Android Browsers List
 
