@@ -19,6 +19,9 @@
 - Android 4.1, Stock Browser, Emulator
 - Android 4, Stock Browser, Emulator
 - Android 4, Chrome 42, BrowserStack or Device
+- Android, UC Browser 11, Nox App Player
+- Android, Mi Browser 9, BrowserStack or Device
+- Android, Samsung Internet 5, BrowserStack or Device
 - macOS 10.10 Yosemite, Safari 8, VirtualBox
 - iOS 8, Safari 8, Xcode + Simulator
 
