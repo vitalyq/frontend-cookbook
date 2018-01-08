@@ -18,7 +18,7 @@
 - Windows 7, Internet Explorer 8, VirtualBox
 - Android 4.1, Stock Browser, Emulator
 - Android 4, Stock Browser, Emulator
-- Android 4, Chrome 42, BrowserStack or Device
+- Android 4, Chrome 42, Emulator
 - Android, UC Browser 11, Nox App Player
 - Android, Mi Browser 9, BrowserStack or Device
 - Android, Samsung Internet 5, BrowserStack or Device
@@ -49,7 +49,7 @@
     2. In the SDK Platforms tab select Show Package Details
     3. Find Android 4.0.3 (IceCreamSandwich) section
     4. Check Google APIs Intel x86 Atom System Image and click Apply
-- Chrome 42 doesn't work on x86 Android 4.0.3
+- Chrome 42 doesn't work on x86 Android 4.0.3 image, install it on Android 4.4 from [apk](https://www.apkmirror.com/apk/google-inc/chrome/chrome-42-0-2311-111-release/chrome-42-0-2311-111-x86-android-apk-download/)
 
 ## Supplement: Android Browsers List
 
