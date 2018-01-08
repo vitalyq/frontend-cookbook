@@ -1,7 +1,7 @@
 # Prepare a Favicon and Other Icons
 ## Generate Icons
 
-- Prepare the original SVG or PNG icon. PNG should be 512 pixel square image. Even bigger PNG is recommended to be future proof.
+- Prepare the original SVG or PNG icon. PNG should be a 512-pixel square image. Even bigger PNG is recommended to be future proof.
 - Upload the original icon to [RealFaviconGenerator](https://realfavicongenerator.net/).
 - Configure all the fields.
 - Upload `Dedicated picture`s if certain images don't look good.
@@ -21,6 +21,6 @@ Note the [order](https://github.com/RealFaviconGenerator/realfavicongenerator/is
 
 Backup should contain:
 
-- Original SVG or 512 pixel or larger square PNG
+- Original SVG or 512 pixels or larger square PNG
 - Files used to create 16x16, 32x32, or both icons if these icons were overridden
 - Files used to create other icons which were overridden

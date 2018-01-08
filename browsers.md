@@ -37,7 +37,7 @@
 
 1. Install VirtualBox
 2. [Download](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/) .ova file with desired OS/Browser combination
-3. Double click the file and import the virtual machine
+3. Double-click the file and import the virtual machine
 
 #### Test on Android Emulator with Android Studio
 

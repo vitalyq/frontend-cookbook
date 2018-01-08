@@ -1,4 +1,4 @@
-# Common Tasks Cookbook
+# Front-end Cookbook
 
 - [Prepare a favicon and other icons](favicons.md)
 - [Set up browsers for testing](browsers.md)
