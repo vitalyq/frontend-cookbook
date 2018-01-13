@@ -50,6 +50,7 @@
     3. Find Android 4.0.3 (IceCreamSandwich) section
     4. Check Google APIs Intel x86 Atom System Image and click Apply
 - Chrome 42 doesn't work on x86 Android 4.0.3 image, install it on Android 4.4 from [apk](https://www.apkmirror.com/apk/google-inc/chrome/chrome-42-0-2311-111-release/chrome-42-0-2311-111-x86-android-apk-download/)
+- Home button is not functional on Android 4.1 image. Use Android 4.2 instead.
 
 ## Supplement: Android Browsers List
 
