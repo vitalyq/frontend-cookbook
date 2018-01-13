@@ -18,8 +18,9 @@
 - Windows 7, Internet Explorer 8, VirtualBox
 - Android 4.1, Stock Browser, Emulator
 - Android 4, Stock Browser, Emulator
-- Android 4, Chrome 42, Emulator
-- Android, UC Browser 11, Nox App Player
+- Android 4, Chrome 42, Emulator (apk)
+- Android, UC Browser (latest), BrowserStack or Device
+- Android, UC Browser 11.4, Emulator (apk)
 - Android, Mi Browser 9, BrowserStack or Device
 - Android, Samsung Internet 5, BrowserStack or Device
 - macOS 10.10 Yosemite, Safari 8, VirtualBox
@@ -50,7 +51,9 @@
     3. Find Android 4.0.3 (IceCreamSandwich) section
     4. Check Google APIs Intel x86 Atom System Image and click Apply
 - Chrome 42 doesn't work on x86 Android 4.0.3 image, install it on Android 4.4 from [apk](https://www.apkmirror.com/apk/google-inc/chrome/chrome-42-0-2311-111-release/chrome-42-0-2311-111-x86-android-apk-download/)
-- Home button is not functional on Android 4.1 image. Use Android 4.2 instead.
+- Home button is not functional on Android 4.1 image, use Android 4.2 instead
+- UC Browser from Google Play doesn't work on emulator, install it from [apk](https://www.apkmirror.com/apk/ucweb-inc/uc-browser/uc-browser-11-4-5-1005-release/uc-browser-11-4-5-1005-2-android-apk-download/)
+- Some browsers don't have x86 builds available and should be tested with a real device
 
 ## Supplement: Android Browsers List
 
