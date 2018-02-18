@@ -76,16 +76,12 @@ Sauce Connect is used to access your locally hosted tests from the Sauce Labs br
 
 #### 5.2. Set up Sauce Connect with [Travis CI](https://docs.travis-ci.com/user/sauce-connect/)
 
-We store credentials with [JWT addon](https://docs.travis-ci.com/user/jwt) to enable builds on pull requests.
-
-- `gem install travis`
+- Disable **Build pushed pull requests** in repository settings
+- Add environment variables `SAUCE_USERNAME` and `SAUCE_ACCESS_KEY` with Sauce Labs credentials
 - Update `.travis.yml`:
 ```YAML
 addons:
-  sauce_connect:
-    username: "Your Sauce Labs username"
-  jwt:
-    secure: "The secure string output by `travis encrypt SAUCE_ACCESS_KEY=Your Sauce Labs access key`"
+  sauce_connect: true
 ```
 - Update `Gruntfile.js` to use a tunnel provided by `sauce_connect` addon:
 ```js
